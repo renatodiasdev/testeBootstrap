@@ -8,6 +8,10 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renatodiasdev/testeBootstrap.git"
+  }
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1"
