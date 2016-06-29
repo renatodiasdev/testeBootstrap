@@ -1,3 +1,24 @@
+
+@font-face {
+    font-family: "Cardo";
+    src: url('fonts/cardo/Cardo-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: "Brandon";
+    src: url('../fonts/brandon/Brandon.ttf');
+}
+
+
+.nome-empresa {width: 100%;  text-align: center;}
+.nome-empresa a span {width: 100%; font-family: "Cardo"; font-size: 24px; color: saddlebrown;}
+
+h3 {font-family: "Cardo"; font-size: 24px; color: saddlebrown;}
+
+p {font-family: "Brandon"; font-size: 18px;}
+
+
 .centralizarImagem { 
     display:         flex;
     display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
@@ -24,9 +45,10 @@
 .menu ul li a {
     	padding: 2px 10px;
     	display: inline-block;
-        width: 24.70%;
+        width: 24.65%;
      
     	/* visual do link */
+        font-family: "Brandon";
     	color: #333;
         text-align: center;
     	text-decoration: none;
@@ -40,12 +62,13 @@
 
 .menu ul li a:hover {
     color: saddlebrown;
-    font-weight: bold;
     border-top-color: saddlebrown;
     border-bottom-color: saddlebrown;
     } 
 
-.destaque {width: 100%}
+.foto {width: 100%; height: auto;}
+
+.destaque {width: 100%; padding-bottom: 20px;}
 
 .quadro {width: 100%; float: left;}
 
